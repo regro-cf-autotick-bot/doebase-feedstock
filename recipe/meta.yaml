@@ -1,12 +1,12 @@
 {% set name = "doebase" %}
-{% set version = "v2.0.2" %}
+{% set version = "2.0.2" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://github.com/pablocarb/doebase/archive/refs/tags/{{ version }}.tar.gz
+  url: https://github.com/pablocarb/doebase/archive/refs/tags/v{{ version }}.tar.gz
   sha256: 530f1d0e11a5ca3f461be1be2fd8e1c041207b9f0d44dc1acd0ca8f034b91e0d
 
 build:
